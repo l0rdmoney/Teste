@@ -1,0 +1,70 @@
+body {
+	font-family: sans-serif;
+	color: #263238;
+}
+.title {
+	text-align: center;
+	font-size: 1.4em;
+}
+.title .url-site {
+	color: steelblue;
+}
+
+.glide {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.glide .glide__slides {
+	display: flex;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.glide .glide__slide {
+	flex: none;
+	border-radius: 0.4em;
+	color: #263238;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 100px;
+	list-style-type: none;
+	width: 300px !important;
+	height: 180px !important;
+	box-shadow: 0.2em 0.2em 0.6em rgba(0, 0, 0, 0.4);
+}
+.glide__arrows {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+}
+.glide__arrow {
+	border: none;
+	border-radius: 20em;
+	padding: 0.5em 3em;
+	background-color: #ffc400;
+	font-size: 1.1em;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.glide__arrow:focus {
+	outline: none;
+}
+.glide__arrow:active {
+	transform: scale(0.88);
+}
+
+/* Socials */
+.facebook {
+	background-color: #1976d2 !important;
+}
+.instagram {
+	background-color: #e91e63 !important;
+}
+.medium {
+	background-color: #4caf50 !important;
+}
+.twitter {
+	background-color: #03a9f4 !important;
+}
